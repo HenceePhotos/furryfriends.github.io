@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+html, body{
+  	height: 100%;
+}
+
+a, p, h1, h2, h3, h4, h5, h6, h7 {
+    color: #FFF8E4;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    text-decoration: none;
+}
+
+a, p {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.footertxt  {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+}
+
+body{
+	margin: 0;
+	background-color: #1C3738;
+	
+}
+
+h1{
+    text-align: center;
+    text-decoration: none;
+}
+
+nav{
+  	display: flex;
+ 	 width: 100%;
+  	height: 100px;
+  	align-items: center;
+  	justify-content: center;
+}
+
+footer {
+	background-color: #1C3738;
+	height: 150px;
+	max-width: 100%;
+}
+
+footer img{
+	width: 70px;
+	display: block;
+	margin: 0 auto;
+}
+
+footer p{
+	color: #FFF8E4;
+	text-align: center;
+	font-size: 10px;
+	margin: 0 auto;
+	display: block;
+}
+a{
+  	text-decoration: none;
+  	color: #FFF8E4;
+  	margin: 0 30px;
+}
+
+#logo img{
+ 	width: 50px;
+  	height: 100%;
+}
+
+.bookcta {
+    background-color: #ff6e6e;
+    color: #1C3738;
+	text-align: center;
+	margin: 0 auto;
+    border: medium solid #ff6e6e;
+    border-radius: 10px;
+    text-decoration: none;
+	font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+	padding: 10px;
+}
+
+.bookcta:hover {
+	text-decoration: none;
+	background-color: #1C3738;
+	color: #ff6e6e;
+	border: medium solid #ff6e6e;
+}
+
+.bookcta2 {
+    background-color: #FFF8E4;
+    color: #8BAAAD;
+	text-align: center;
+	margin: 0 auto;
+    border: medium solid #FFF8E4;
+    border-radius: 10px;
+    text-decoration: none;
+	font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+	padding: 10px;
+}
+
+.bookcta2:hover {
+	text-decoration: none;
+	background-color: #8BAAAD;
+	color: #FFF8E4;
+	border: medium solid #FFF8E4;
+}
+
+.bookcta3 {
+    background-color: #FFF8E4;
+    color: #1C3738;
+	text-align: center;
+	margin: 0 auto;
+    border: medium solid #FFF8E4;
+    border-radius: 10px;
+    text-decoration: none;
+	font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+	padding: 10px;
+}
+
+.bookcta3:hover {
+	text-decoration: none;
+	background-color: #1C3738;
+	color: #FFF8E4;
+	border: medium solid #FFF8E4;
+}
+
+.bookbtn {
+	margin: 40px;
+	text-align: center;
+	font-size: 2em;
+	
+}
+
+.carousel-inner .carousel-item.active .d-block.mx-auto img {
+	margin: 0 auto;
+	display: block;
+	width: auto;
+	height: 100%;
+}
+
+.caromax {
+	display: block;
+	width: 800px;
+	height: auto;
+}
+
+.navpage {
+	
+}
+
+.navpage:hover {
+    text-decoration: none;
+	color: aliceblue;
+}
+
+
+.col2 {
+	width: 45%;
+	margin: 0 auto;
+}
+
+.col3 {
+	width: 30%;
+	margin: 0 auto;
+    padding: 5px;
+}
+
+.col4 {
+	width: 20%;
+	margin: 0 auto;
+}
+
+
+.review {
+	padding: 20px;
+}
+
+#carouselExampleIndicators1 .carousel-inner {
+    background-color: #8BAAAD;
+}
+
+.reviewsblock {
+	background-color: #8BAAAD;
+}
+
+.gallerytext {
+	text-align: center;
+}
+
+.row {
+  display: flex;
+	width: 100%;
+  flex-wrap: wrap;
+  padding: 0 4px;
+    margin: 0 auto;
+}
+
+.row2 {
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	padding: 0 4px;
+	text-align: right;
+}
+
+.column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+    margin: 0 auto;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.footerleft {
+	padding-left: 25px;
+	width: 65%;
+	flex: 65%;
+	color: white;
+}
+.footerright {
+	width: 35%;
+	flex: 35%;
+}
+
+.aboutimg {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.col2 img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.pricetxt {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.col2p {
+	width: 45%;
+	margin: 0 auto;
+    border: 2px 
+}
+
+.col2pp {
+	width: 45%;
+	margin: 0 auto;
+    text-align: center;
+}
+
+.priceimg {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+.calender {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.priceslist {
+    margin: 0 auto;
+    width: 60%;
+    padding: 10px;
+}
+.priceslist2 {
+    margin: 0 auto;
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+}
+
+.imgprices {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+	}
+	
+	  .caromax {
+	display: block;
+	width: 500px;
+	height: auto;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+	.caromax {
+	display: block;
+	width: 500px;
+	height: auto;
+}
+}
